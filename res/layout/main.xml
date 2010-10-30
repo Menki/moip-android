@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    <TextView 
+   	    	android:id="@+id/value_label"
+	    	android:textSize="18sp" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="wrap_content"
+	    	android:text="@string/value" />
+	    <EditText
+	    	android:id="@+id/value"
+	    	android:textSize="18sp" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="wrap_content"
+	    	android:maxLines="1" 
+			android:layout_alignBaseline="@+id/value_label"
+			android:layout_toRightOf="@+id/value_label" />
+		<Button 
+			android:text="@string/buy" 
+			android:id="@+id/buy_button" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignBaseline="@+id/value"
+			android:layout_toRightOf="@+id/value" />
+	</RelativeLayout>
+	<WebView
+		android:id="@+id/web_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1.0" />	
+</LinearLayout>
