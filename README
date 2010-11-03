@@ -1,8 +1,11 @@
+http://labs.moip.com.br/blog/moip-e-menki-esforco-conjunto-para-o-moip-na-plataforma-android/
+
 1) Este aplicativo foi desenvolvido e testado em Android 2.2.
 
 2) Antes de inicializar o projeto, edite o arquivo Moip.java com seu token e key na seguintes linhas:
 
 public final String token = "SEU TOKEN AQUI";
 public final String key = "SUA KEY AQUI";
+
 
 
